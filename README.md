@@ -1,8 +1,8 @@
 ## Welcome to abetekHub Pages
 
-You can use the [editor on GitHub](https://abetekhub.com/Abetek-com/abetek-API/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on abetekHub](https://abetekhub.com/Abetek-com/abetek-API/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, abetekhub Pages will run [abetek](https://corp.abetek.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, abetekhub Pages will run [abetek](https://abetek.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](abetek.com) and ![Image](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.abetekhub.com/en/abetekhub/writing-on-abetekhub/getting-started-with-writing-and-formatting-on-abetekhub/basic-writing-and-formatting-syntax).
