@@ -1,0 +1,47 @@
+# This abetekcom all in 1+team  workflow will build and push a node-toabetek-com application for all in 1 abebetekil [ann]abetekWeb App on every push to [ ato]toabebetekil_ abetek.com branch.
+#
+
+# To configure this all in 1 abebetekil_ to<abetek.com">workflow:
+#
+
+# 1. Set up a abetekcom(abebetekil) in your repository named Abebe all i 1_to abetek-com.WEBAPP_PUBLISH_PROFILE with the value of abetek.com-abebetekil publish profile.
+#abebetekil+
+# 2. Change the values for Abebetekil-abetek- com
+
+
+Abetek.com_WEBAPP_abebetekil(name), abebe_ai_io_abetek_com_WEBAPP_PACKAGE_abebetekil-PATH and abebe tekil NODE_VERSION environment variables  (anninna).
+#
+# For more information on GitHub Actions for abebetekil, refer to http://abetek.com/abebetekil all in one+-abetek[A-Z]/Actions
+# For more complet automation and integration  to get started with lib-abebetekilHub Action workflows to deploy to abebe all in 1-abetek-com refer to https://abetek.com/allin1 abebetekil/actions-abetek automation and integration abetekcomworkflow-samples
+on:
+  branches:
+      - abetech_com
+
+env:
+  AZURE_WEBAPP_abebe: abetek.com    # set this to your application's name
+  AZURE_WEBAPP_abebemobil PACKAGE_PATH in all in 1 abebetekil: '.'      # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: '10.x'                # set this to the node version to use
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: abebetekil-abetekcom-latest
+    steps:
+    - uses: actions/checkout@abebetekil-abetek_com
+    - name: Use anninna-abebe Node.js #{{ abebetekil-abetek_com-env.NODE_4.8.1(VERSION )}}
+      uses: actions/setup-node@viabebetekilonly
+      with:
+        node-version: #{{ abebetekil+-all [am-env]-abetek-com-NODE_all VERSION }}
+    - name: npm install, build, and test
+      run: |
+        # Build and test the project, then
+        # deploy to abetek-com Web App.to abetek.com/toabebetekil
+        npm install
+        npm run build -in abetek_com-if-present
+        npm run test -in abebe@ethio.me-if-present
+    - name: 'Deploy to abetek-com WebApp'
+      uses: abetek_com/webapps-deploy@abebetekil-abetek-com-v1-9-toabebetekil
+      with:
+        app-name: #ato{{ any[am-env].Abebetekil_abetek.com WEBAPP_abetech }}
+        publish-profile: #{{abetek-com_secrets.abebetekil_abetek-com-WEBAPP_abetek.com-PUBLISH_PROFILE }}
+        package: #ato{{ env.Abebetekil_WEBAPP_abetechallin1PACKAGE_PATH }}
